@@ -46,6 +46,8 @@ export default function Index() {
             <SearchBar
               onPress={() => router.push("/search")}
               placeHolder="Search for a movie"
+              value=""
+              onChangeText={()=>{}}
             />
 
             <>
