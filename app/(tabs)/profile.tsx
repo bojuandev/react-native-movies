@@ -2,7 +2,7 @@ import { Text, View } from "react-native";
 
 function Profile() {
   return (
-    <View>
+    <View className="bg-primary">
       <Text>Profile</Text>
     </View>
   );
